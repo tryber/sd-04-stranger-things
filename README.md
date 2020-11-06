@@ -359,7 +359,7 @@ O que será testado:
 
 **IMPORTANTE**: Uma variável de ambiente com o nome GITHUB_USER deverá ser criada com o seu usuário do github.
 
-1. Crie dois `apps` do Heroku a partir do mesmo código fonte (código da API). O nome do seu app no heroku deverá conter seu nome de usuário no github seguido de "-bk" ou "-bd". Por exemplo, se seu nome de usuário no github for "student" seus app deverão ter o nome:
+1. Crie dois `apps` do Heroku a partir do mesmo código fonte (código da API). O nome do seu app no heroku deverá conter seu nome de usuário no github seguido de "-bk" ou "-bd". Por exemplo, se seu nome de usuário no github for "student" seus app deverão ter o nome "sudent-bk" e "student-bd" e as urls abaixo:
 
    - https://student-bk.herokuapp.com/ -para o app hawkins
 
@@ -434,7 +434,7 @@ Utilize a estratégia de multi-ambientes no frontend. Para isso:
 
    - Faça o deploy do novo ambiente, conforme [requisito 9](#9---Deploy-Heroku).
 
-   - O nome do seu novo app no heroku deve ser seu nome de usuário do github seguido de "-pd". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "-pd" e a url ***precisar ser*** https://student-pd.herokuapp.com/.
+   - O nome do seu novo app no heroku deve ser seu nome de usuário do github seguido de "-pd". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "student-pd" e a url ***precisar ser*** https://student-pd.herokuapp.com/.
 
    - Adicione um item ao frontend que identifique o layout como rodando em modo de "desenvolvimento". Esse tag item **deve** conter o o texto "Em desenvolvimento"
 
