@@ -359,11 +359,11 @@ O que será testado:
 
 **IMPORTANTE**: Uma variável de ambiente com o nome GITHUB_USER deverá ser criada com o seu usuário do github.
 
-1. Crie dois `apps` do Heroku a partir do mesmo código fonte (código da API). O nome do seu app no heroku deverá conter seu nome de usuário no github seguido de "-hawkins-back" ou "-upside-down-back". Por exemplo, se seu nome de usuário no github for "student" seus app deverão ter o nome:
+1. Crie dois `apps` do Heroku a partir do mesmo código fonte (código da API). O nome do seu app no heroku deverá conter seu nome de usuário no github seguido de "-bk" ou "-bd". Por exemplo, se seu nome de usuário no github for "student" seus app deverão ter o nome:
 
-   - student-hawkins-back;
+   - https://student-bk.herokuapp.com/ -para o app hawkins
 
-   - student-upside-down-back.
+   - https://student-bd.herokuapp.com/ -para o app upside-down
 
 2. Configure a variável de ambiente criada para controlar o modo `upsideDown`. Cada um dos `apps` deverá ter valores distintos, da seguinte maneira:
 
@@ -406,7 +406,7 @@ Faça o deploy do front-end:
 
    1. Crie um app do Heroku com o front-end. Não é necessário a criação do `Procfile` aqui. Vamos deixar o Heroku utilizar as configurações padrões. No momento de criar o app do Heroku, utilize o `buildpack` descrito abaixo, em **Dicas**.
 
-   2. O nome do seu app no heroku deve ser seu nome de usuário do github seguido de "-st-frontend". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "student-st-frontend" e a url ***precisar ser*** https://student-st-frontend.herokuapp.com/.
+   2. O nome do seu app no heroku deve ser seu nome de usuário do github seguido de "-ft". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "student-st-frontend" e a url ***precisar ser*** https://student-ft.herokuapp.com/.
 
    2. Configure as variáveis de ambiente do app para apontar para as API's publicadas.
 
@@ -434,7 +434,7 @@ Utilize a estratégia de multi-ambientes no frontend. Para isso:
 
    - Faça o deploy do novo ambiente, conforme [requisito 9](#9---Deploy-Heroku).
 
-   - O nome do seu novo app no heroku deve ser seu nome de usuário do github seguido de "-st-frontend-prod". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "student-st-frontend-prod" e a url ***precisar ser*** https://student-st-frontend-prod.herokuapp.com/.
+   - O nome do seu novo app no heroku deve ser seu nome de usuário do github seguido de "-pd". Por exemplo, se o seu usuário do github for "student", o nome do seu app será "-pd" e a url ***precisar ser*** https://student-pd.herokuapp.com/.
 
    - Adicione um item ao frontend que identifique o layout como rodando em modo de "desenvolvimento". Esse tag item **deve** conter o o texto "Em desenvolvimento"
 
